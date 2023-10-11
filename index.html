@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Pane -->
+        <div class="left-pane">
+            <div class="top-header">
+                <button class="new-chat-button" onclick="createNewChat()"> + New Chat</button>
+            
+                <button class="hide-pane-button">=</button>
+
+            </div>
+           
+            <div class="chat-list">
+               <div class="chat">
+                &#128193; create chat app UI
+                <hr>
+                </div>
+                <div class="chat">
+                    &#128193; Building app 
+                    <hr>
+                </div>
+                <div class="chat">
+                    &#128193; What is AI
+                  <hr>
+               </div>
+               <div class="profile-section">
+                <button class="profile-section">👤 upgrade to plus </button>
+                <div class="user-details">
+                  <div class="username">keerthikarajaganapathi@gmail.com</div>
+                 
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Right Pane -->
+          <div class="right-pane">
+            <div class="floating-buttons">
+                <button class="floating-button"> ⚡ GPT-3.5</button>
+                <button class="floating-button">✨ GPT-4 🔒</button>
+            </div>
+            <div class="chat-messages">
+                <!-- Chat messages will be displayed here -->
+                <h1 id="chatgpt-message"><div class="chatgpt-message">ChatGPT</div></h1>
+            </div>
+            <div class="box-container">
+                <div class="box"><b><br>Compare design principles</b><br>for mobile apps and desktop software</div>
+                <div class="box"><b><br>write a python script</b><br>to automate sending daily email reports</div>
+            </div>
+            <div class="box-container">
+                <div class="box"><b><br>Tell me a fun fact</b><br>about the roman empire</div>
+                <div class="box"><b><br>create a personal webpage for me </b><br>after asking me three quetions</div>
+            </div>
+        
+            <div class="input-box">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button class="send-button">➤</button>
+            </div>
+           
+        </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
